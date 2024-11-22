@@ -1,5 +1,6 @@
 import { BiSearch } from "react-icons/bi";
 import MenuItem from "./MenuItem";
+import ThemeComp from "./ThemeComp";
 const Header = () => {
   const menu = [
     {
@@ -22,10 +23,11 @@ const Header = () => {
         <input
           type="text"
           placeholder="Search Movie"
-          className="flex-1 px-2 outline-none py-1 rounded-md text-black"
+          className="flex-1 px-2 outline-none py-1 rounded-md text-black bg-transparent"
         />
         <BiSearch size={25} />
       </div>
+      <ThemeComp />
 
       {menu.map((mn, key) => (
         <MenuItem mn={mn} key={key} />

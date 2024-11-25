@@ -10,6 +10,9 @@ const ThemeComp = () => {
   useEffect(() => {
     setMounted(true);
   }, []);
+  if (!mounted) {
+    return null; // Hydration tamamlanana kadar hiçbir şey render etmiyoruz.
+  }
 
   const themeMode = theme === "system" ? systemTheme : theme;
 

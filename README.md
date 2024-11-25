@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie App 🎥
 
-## Getting Started
+Movie App is a responsive and user-friendly movie browsing application built with Next.js. The app integrates with The Movie Database (TMDB) API to fetch movie data and provides a seamless experience for users to explore movies by categories, search for specific titles, and view detailed information about individual movies.
 
-First, run the development server:
+## Screenshots
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## screenrecord gif
+
+### home page
+
+![](./public/images/mainpage.png)
+
+### users page
+
+![](./public/images/detailpage.png)
+
+## Features ✨
+
+### 🎬 Home Page with Tabs
+
+- Movies are dynamically categorized into:
+  - - Popular
+  - - Top Rated
+  - - Upcoming
+- Each category is displayed in separate tabs for easy navigation.
+
+### 🔍 Search Functionality
+
+- A search bar allows users to find movies by their title.
+- Results are dynamically displayed based on the search query.
+
+### 📝 Movie Details Page
+
+- Click on any movie to navigate to a dedicated detail page.
+- Details include:
+- - Movie title and description
+- - Release date
+- - Average rating
+- - Movie backdrop image or poster
+    ### 🌗 Dark/Light Mode
+- The app includes a theme toggle for switching between light and dark modes, enhancing the user experience.
+  📱 Responsive Design
+- Fully optimized for mobile, tablet, and desktop devices, ensuring a seamless experience across all screen sizes.
+
+## Tech Stack 🛠️
+
+### Framework
+
+- Next.js: Server-side rendering (SSR) and dynamic routing for enhanced performance.
+
+### Styling
+
+- Tailwind CSS: For building a clean and modern user interface.
+  ### API
+- The Movie Database (TMDB) API: For fetching movie data, including categories and search results.
+
+# Installation and Setup 🚀
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (v14 or later)
+- **npm** or **yarn**
+
+### Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/ozerbaykal/next-movie-app.git
+
+   cd dashboard-next-movie-app
+
+   ```
+
+2. Install dependencies:
+
+```
+ npm install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3.  Open the application in your browser:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+http://localhost:3000
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Please open an issue first to discuss what you would like to change.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 1.Fork the project
+- 2.Create your feature branch (git checkout -b feature/NewFeature)
+- 3.Commit your changes (git commit -m 'Add new feature')
+- 4.Push to the branch (git push origin feature/NewFeature)
+- 5.Open a Pull Request
 
-## Deploy on Vercel
+<h2>Contact</h2>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Özer BAYKAL mail : baykalozer87@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Project Link:https://github.com/ozerbaykal/next-movie-app

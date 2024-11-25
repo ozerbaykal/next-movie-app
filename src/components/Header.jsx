@@ -30,9 +30,15 @@ const Header = () => {
     <div className="flex items-center gap-10 h-20 p-5">
       <Link
         href={"/"}
-        className="bg-amber-600 p-3 text-2xl rounded-lg font-bold cursor-pointer"
+        className="bg-blue-600  bg-opacity-80 p-2 text-xl rounded-lg cursor-pointer font-semibold flex flex-col mt-3 items-center gap-1"
       >
-        Movie App
+        <span className="border px-2 -tracking-tighter">PARLIAMENT</span>
+        <p className="text-sm border-dotted border-b border-t flex gap-1 ">
+          <span className="bg-red-500">Cİ</span>
+          <span className="bg-cyan-500">NE</span>
+          <span className="bg-orange-400">MA</span>
+          <span className="bg-blue-900">CLUB</span>
+        </p>
       </Link>
 
       <div className="flex flex-1 items-center gap-2 border rounded-md p-3">

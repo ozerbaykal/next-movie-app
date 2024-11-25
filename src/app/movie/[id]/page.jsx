@@ -26,7 +26,7 @@ const Page = async ({ params }) => {
   const movieDetail = await getMovie(id);
 
   return (
-    <div className="relative  w-full h-[500px]">
+    <div className="relative  w-full h-[600px] p-8">
       <Image
         style={{ objectFit: "cover" }}
         src={`https://image.tmdb.org/t/p/original/${

@@ -6,6 +6,8 @@ Movie App is a responsive and user-friendly movie browsing application built wit
 
 ## screenrecord gif
 
+![](./public/images/recordmovie.gif)
+
 ### home page
 
 ![](./public/images/mainpage.png)
